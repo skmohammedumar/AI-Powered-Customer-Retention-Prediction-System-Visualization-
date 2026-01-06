@@ -128,6 +128,19 @@ These visualizations help identify high-risk customer segments.
 
 ---
 
+## 🔢 Encoding for Future Modeling
+
+Categorical features were converted into numeric format using **One-Hot Encoding**:
+
+```python
+df_final = pd.get_dummies(df, drop_first=True, dtype=int)
+```
+
+* Dataset expanded from **20 to 31 columns**
+* All features are now numeric and ML-ready
+
+---
+
 ## 🛠️ Tools & Technologies
 
 * Python
@@ -140,3 +153,13 @@ These visualizations help identify high-risk customer segments.
 ## ✅ Project Outcome
 
 This project successfully demonstrates how **data preprocessing and visualization** can be used to gain meaningful insights into customer churn behavior. The clean dataset and visual analysis provide a strong foundation for building predictive machine learning models in the next phase.
+
+---
+
+## 👨‍💻 Author
+
+**Shaik Kamalapuram Mohammed Umar**
+
+---
+
+📌 *This README documents the complete data visualization and preprocessing workflow used in this project.*
