@@ -128,19 +128,6 @@ These visualizations help identify high-risk customer segments.
 
 ---
 
-## 🔢 Encoding for Future Modeling
-
-Categorical features were converted into numeric format using **One-Hot Encoding**:
-
-```python
-df_final = pd.get_dummies(df, drop_first=True, dtype=int)
-```
-
-* Dataset expanded from **20 to 31 columns**
-* All features are now numeric and ML-ready
-
----
-
 ## 🛠️ Tools & Technologies
 
 * Python
