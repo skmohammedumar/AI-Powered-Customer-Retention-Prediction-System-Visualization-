@@ -1,112 +1,124 @@
-# AI-Powered-Customer-Retention-Prediction-System-Visualization-
-📊 Project Overview
+📊 Customer Churn Analysis
+📌 Project Description
 
-This project analyzes a telecom company's customer data to understand customer churn patterns. The goal is to identify factors that influence churn and visualize trends using Python.
+This project analyzes a telecom customer dataset to understand customer churn behavior.
+It focuses on data cleaning, exploratory data analysis (EDA), visualization, and feature encoding to prepare the data for machine learning models.
 
-🗂 Dataset
+📁 Dataset Information
 
-The dataset contains customer information with attributes such as:
+The dataset contains customer details such as:
 
-gender – Customer gender
+gender
 
-SeniorCitizen – Whether the customer is a senior citizen (1 = Yes, 0 = No)
+SeniorCitizen
 
-MonthlyCharges – Monthly subscription amount
+Partner
 
-TotalCharges – Total billed amount
+Dependents
 
-Churn – Whether the customer has churned (Yes/No)
+MonthlyCharges
 
-PaymentMethod – Payment method used by the customer
+TotalCharges
 
-…and other service-related features
+PaymentMethod
 
-Note: Some columns were converted to numeric (e.g., TotalCharges) to handle missing or non-numeric values.
+Contract
 
-🛠 Tools Used
+InternetService
 
-Python 3.x
+Churn (Target Variable)
+
+🛠️ Technologies Used
+
+Python
 
 Pandas
 
-Matplotlib & Seaborn
+Matplotlib
 
 Jupyter Notebook
 
-🔍 Analysis Performed
+🔧 Data Preprocessing Steps
 
-Data Cleaning – Converted non-numeric columns, handled missing values.
+Converted TotalCharges to numeric values
 
-Exploratory Data Analysis (EDA) –
+Handled missing values
 
-Distribution of MonthlyCharges and TotalCharges.
+Converted Churn from Yes/No → 1/0
 
-Customer churn counts and percentages (overall, gender-wise).
+Applied One-Hot Encoding to categorical columns
 
-Senior citizen distribution.
+Prepared dataset for analysis and modeling
 
-Churn analysis by PaymentMethod.
+📊 Exploratory Data Analysis (EDA)
 
-Visualizations –
+The following analyses were performed:
 
-Histograms for numeric distributions
+Distribution of MonthlyCharges and TotalCharges
 
-Bar charts for categorical distributions
+Overall Churn distribution
 
-Pie charts for churn percentages
+Gender-wise churn analysis
+
+Senior Citizen distribution
+
+Payment Method vs Churn
+
+Visualizations using:
+
+Bar charts
+
+Histograms
+
+Pie charts
+
+Subplots
 
 📈 Key Insights
 
-Monthly charges and total charges vary widely across customers.
+Monthly and total charges vary significantly across customers
 
-Senior citizens have a higher churn tendency compared to non-senior customers.
+Certain payment methods show higher churn rates
 
-Certain payment methods are associated with higher churn rates.
+Senior citizens tend to churn more than non-senior customers
 
-Female and male customers show different churn percentages.
+Gender-wise churn percentages show noticeable differences
 
-🔗 How to Run
+▶️ How to Run the Project
 
 Clone the repository:
 
-git clone https://github.com/yourusername/churn-analysis.git
+git clone https://github.com/your-username/customer-churn-analysis.git
 
 
-Navigate to the project folder:
+Install required libraries:
 
-cd churn-analysis
-
-
-Install dependencies:
-
-pip install -r requirements.txt
+pip install pandas matplotlib
 
 
-Open the Jupyter Notebook and run the analysis:
+Open and run the Jupyter Notebook:
 
-jupyter notebook churn_analysis.ipynb
+jupyter notebook
 
-📂 Folder Structure
-churn-analysis/
+📂 Project Structure
+customer-churn-analysis/
 │
-├── data/                  # Excel/CSV dataset
-├── notebooks/             # Jupyter notebooks
-├── plots/                 # Saved plots
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+├── data/            # Dataset (Excel / CSV)
+├── notebook.ipynb   # Analysis notebook
+├── plots/           # Generated visualizations
+└── README.md        # Project documentation
 
-📌 Future Work
+🚀 Future Enhancements
 
-Build predictive machine learning models to predict churn.
+Build machine learning models to predict churn
 
-Explore additional features influencing churn, like tenure, contract type, and services used.
+Feature selection and model optimization
 
-Perform feature engineering and model optimization.
+Add accuracy, confusion matrix, and ROC curve
 
-💻 Author
+👤 Author
 
 Shaik Kamalapuram Mohammed Umar
 
-Passionate about data analysis and machine learning
 
 B.Tech in ECE with focus on Embedded Systems and Industrial IoT
