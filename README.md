@@ -84,21 +84,6 @@ Senior citizens tend to churn more than non-senior customers
 
 Gender-wise churn percentages show noticeable differences
 
-▶️ How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-username/customer-churn-analysis.git
-
-
-Install required libraries:
-
-pip install pandas matplotlib
-
-
-Open and run the Jupyter Notebook:
-
-jupyter notebook
 
 📂 Project Structure
 customer-churn-analysis/
