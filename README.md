@@ -105,5 +105,3 @@ Add accuracy, confusion matrix, and ROC curve
 
 Shaik Kamalapuram Mohammed Umar
 
-
-B.Tech in ECE with focus on Embedded Systems and Industrial IoT
